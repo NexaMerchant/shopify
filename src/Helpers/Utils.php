@@ -1,5 +1,5 @@
 <?php
-namespace Nicelizhi\Shopify\Helpers;
+namespace NexaMerchant\Shopify\Helpers;
 use GuzzleHttp\Client;
 use Webkul\Attribute\Models\AttributeOption;
 use Webkul\Attribute\Models\AttributeOptionTranslation;
