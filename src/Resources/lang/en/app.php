@@ -17,4 +17,9 @@ return [
             'demo' => 'Shopify::app.shop.Shopify.demo',
         ],
     ],
+    'Api' => [
+        'Shopify' => [
+            'demo' => 'Shopify::app.Api.Shopify.demo',
+        ],
+    ],
 ];
