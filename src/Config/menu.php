@@ -18,6 +18,13 @@ return [
         'icon'       => 'icon-dashboard',
     ],
     [
+        'key'        => 'Shopify.Stores',
+        'name'       => 'Shopify::app.Admin.Shopify.Stores',
+        'route'      => 'Shopify.admin.example.demo',
+        'sort'       => 2,
+        'icon'       => 'icon-dashboard',
+    ],
+    [
         'key'        => 'Shopify.Orders',
         'name'       => 'Shopify::app.Admin.Shopify.Orders',
         'route'      => 'Shopify.admin.example.demo',

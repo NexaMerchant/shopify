@@ -9,6 +9,7 @@ return [
             'Customers' => 'Shopify Customers',
             'Discounts' => 'Shopify Discounts',
             'Reports' => 'Shopify Reports',
+            'Stores' => 'Shopify Stores',
         ],
     ],
     'Shop' => [
