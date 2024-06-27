@@ -27,6 +27,7 @@ Route::group(['middleware' => ['admin','admin_option_log'], 'prefix' => config('
     Route::prefix('shopify')->group(function () {
 
 
+        // Example
         Route::controller(ExampleController::class)->prefix('example')->group(function () {
 
             Route::get('demo', 'demo')->name('Shopify.admin.example.demo');
@@ -34,42 +35,49 @@ Route::group(['middleware' => ['admin','admin_option_log'], 'prefix' => config('
         });
 
 
+        // Products
         Route::controller(ProductsController::class)->prefix('products')->group(function () {
 
             Route::get('index', 'index')->name('Shopify.admin.products.index');
 
         });
 
+        // Customers
         Route::controller(CustomersController::class)->prefix('customers')->group(function () {
 
             Route::get('index', 'index')->name('Shopify.admin.customers.index');
 
         });
 
+        // Stores
         Route::controller(StoresController::class)->prefix('stores')->group(function () {
 
             Route::get('index', 'index')->name('Shopify.admin.stores.index');
 
         });
 
+        // Reports
         Route::controller(ReportsController::class)->prefix('reports')->group(function () {
 
             Route::get('index', 'index')->name('Shopify.admin.reports.index');
 
         });
 
+        // Settings
         Route::controller(SettingsController::class)->prefix('settings')->group(function () {
 
             Route::get('index', 'index')->name('Shopify.admin.settings.index');
 
         });
 
+        // Orders
         Route::controller(OrdersController::class)->prefix('orders')->group(function () {
 
             Route::get('index', 'index')->name('Shopify.admin.orders.index');
 
         });
 
+        // Discount
         Route::controller(DiscountsController::class)->prefix('discounts')->group(function () {
 
             Route::get('index', 'index')->name('Shopify.admin.discounts.index');
