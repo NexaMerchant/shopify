@@ -8,7 +8,7 @@ Route::group(['middleware' => ['admin','admin_option_log'], 'prefix' => config('
 
         Route::controller(ExampleController::class)->prefix('example')->group(function () {
 
-            Route::get('demo', 'demo')->name('shopify.admin.example.demo');
+            Route::get('demo', 'demo')->name('Shopify.admin.example.demo');
 
         });
 
