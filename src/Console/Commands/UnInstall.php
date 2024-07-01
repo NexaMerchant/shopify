@@ -1,7 +1,7 @@
 <?php
 namespace NexaMerchant\Shopify\Console\Commands;
 
-use NexaMerchant\Apps\Console\Commands\CommandInterface;
+use Nicelizhi\Apps\Console\Commands\CommandInterface;
 
 class UnInstall extends CommandInterface 
 
