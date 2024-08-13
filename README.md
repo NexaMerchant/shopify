@@ -14,4 +14,5 @@ Add it to config/app.php $providers
 composer require nexa-merchant/shopify
 ```
 
-# 
+# Reference
+[Shopify Dev](https://shopify.dev/docs/admin-api/rest/reference)
