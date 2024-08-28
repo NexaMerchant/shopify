@@ -28,8 +28,8 @@ return new class extends Migration
             $table->string('tags');
             $table->string('status');
             $table->string('admin_graphql_api_id');
-            $table->text('variants');
-            $table->text('options');
+            $table->longText('variants')->comment('json product variants');
+            $table->longText('options');
             $table->text('images');
             
             $table->timestamps();
