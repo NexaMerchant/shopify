@@ -29,7 +29,7 @@ return new class extends Migration
             $table->string('status');
             $table->string('admin_graphql_api_id');
             $table->longText('variants')->comment('json product variants');
-            $table->longText('options');
+            $table->text('options');
             $table->text('images');
             
             $table->timestamps();
